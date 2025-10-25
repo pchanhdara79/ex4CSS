@@ -14,29 +14,28 @@ body {
     gap: 10px;
 }
 
-
 .fish header {
-    background-color: #01161E;
+    background-color: #084b83;
     padding: 10px;
 }
 
 .fish .sidebar {
-    background-color: #598392;
+    background-color: #42bfdd;
     padding: 20px;
 }
 
 .fish .main {
-    background-color: #AEC3B0;
+    background-color: #bbe6e4;
     padding: 20px;
 }
 
 .fish footer {
-    background-color: #EFF6E0;
+    background-color: #f0f6f6;
     padding: 10px;
 }
 
 .herps header {
-    background-color: #E63946;
+    background-color: #F1FAEE;
     padding: 10px;
 }
 
@@ -53,6 +52,7 @@ body {
 .herps footer {
     background-color: #1D3557;
     padding: 10px;
+    color: white;
 }
 
 .herps .content {
