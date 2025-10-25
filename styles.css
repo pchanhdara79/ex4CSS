@@ -1,9 +1,12 @@
 body {
-
+    background-color: lightgray;
+    margin: 0;
+    font-family: Garamond, serif;
 }
 
 .page {
-
+    max-width: 600px;
+    margin: auto;
 }
 
 .content {
@@ -11,3 +14,29 @@ body {
     gap: 10px;
 }
 
+
+.fish header {
+}
+
+.herps header {
+}
+
+.fish .sidebar {
+}
+
+.herps .sidebar {
+}
+
+.fish .main {
+}
+
+.herps .main {
+}
+
+footer {
+    color: white;
+}
+
+.herps .content {
+    flex-direction: row-reverse;
+}
