@@ -16,24 +16,43 @@ body {
 
 
 .fish header {
-}
-
-.herps header {
+    background-color: #01161E;
+    padding: 10px;
 }
 
 .fish .sidebar {
-}
-
-.herps .sidebar {
+    background-color: #598392;
+    padding: 20px;
 }
 
 .fish .main {
+    background-color: #AEC3B0;
+    padding: 20px;
+}
+
+.fish footer {
+    background-color: #EFF6E0;
+    padding: 10px;
+}
+
+.herps header {
+    background-color: #E63946;
+    padding: 10px;
+}
+
+.herps .sidebar {
+    background-color: #A8DADC;
+    padding: 20px;
 }
 
 .herps .main {
+    background-color: #457B9D;
+    padding: 20px;
 }
 
-footer {
+.herps footer {
+    background-color: #1D3557;
+    padding: 10px;
     color: white;
 }
 
