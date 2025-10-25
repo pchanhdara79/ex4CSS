@@ -1,0 +1,13 @@
+body {
+
+}
+
+.page {
+
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+
