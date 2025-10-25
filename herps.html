@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Pets: About Herps</title>
-<meta charset="utf-8">
-
+    <title>Pets: About Herps</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="herps">
 
 <header>
-<h1>Pets</h1>
-<p>Everyone's best friends</p>
-<nav>
-<ul>
-	<li><a href="">Home</a></li>
-	<li><a href="">Dogs</a></li>
-	<li><a href="">Cats</a></li>
-	<li><a href="">Fish</a></li>
-</ul>
-</nav>
+    <h1>Pets</h1>
+    <p>Everyone's best friends</p>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Dogs</a></li>
+            <li><a href="">Cats</a></li>
+            <li><a href="">Fish</a></li>
+        </ul>
+    </nav>
 </header>
 
-<aside>
-<h2>Quick Links for Herps</h2>
-<nav>
-<ul>
-	<li><a href="">Snakes</a></li>
-	<li><a href="">Lizards</a></li>
-	<li><a href="">Turtles</a></li>
-</ul>
-</nav>
-</aside>
+<div class="page">
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Quick Links for Herps</h2>
+            <nav>
+                <ul>
+                    <li><a href="">Snakes</a></li>
+                    <li><a href="">Lizards</a></li>
+                    <li><a href="">Turtles</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-<main>
-<article>
-<h2>About Herps</h2>
-<p>This page is about herps.</p>
-<p>This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</p>
-<ul>
-<li>All the proper layout ids (<code>banner, menu, sidebar, colophon</code>) added to their proper tags</li>
-<li>A <code>div</code> to create the livespace with the id of <code>wrapper</code></li>
-<li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code> as the two columns</li>
-<li>Use the <code>flex</code> property to divide up the space instead of percentages, then us <code>gap</code> property in the flex container to create a space between them.</li>
-</ul>
-<p><strong>Important!</strong> To put the sidebar on the right, you can just change the <code>flex-direction</code> in your flexbox to reverse the order in CSS. No need to change the order in your markup.</p>
-<p>Herps, or reptiles and amphibians, can make fun and engaging pets. Learn more about them here!</p>
-</article>
-</main>
-
+        <main class="main">
+            <article>
+                <h2>About Herps</h2>
+                <p>This page is about herps.</p>
+                <p>This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</p>
+                <ul>
+                    <li>All the proper layout ids (<code>banner, menu, sidebar, colophon</code>) added to their proper tags</li>
+                    <li>A <code>div</code> to create the livespace with the id of <code>wrapper</code></li>
+                    <li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code> as the two columns</li>
+                    <li>Use the <code>flex</code> property to divide up the space instead of percentages, then use <code>gap</code> property in the flex container to create a space between them.</li>
+                </ul>
+                <p><strong>Important!</strong> To put the sidebar on the right, you can just change the <code>flex-direction</code> in your flexbox to reverse the order in CSS. No need to change the order in your markup.</p>
+                <p>Herps, or reptiles and amphibians, can make fun and engaging pets. Learn more about them here!</p>
+            </article>
+        </main>
+    </div>
+</div>
 
 <footer>
-<ul>
-	<li><a href="">facebook</a></li>
-	<li><a href="">instagram</a></li>
-	<li><a href="">twitter</a></li>
-</ul>
+    <ul>
+        <li><a href="https://www.facebook.com">facebook</a></li>
+        <li><a href="https://www.instagram.com">instagram</a></li>
+        <li><a href="https://www.twitter.com">twitter</a></li>
+    </ul>
 </footer>
 
 </body>
